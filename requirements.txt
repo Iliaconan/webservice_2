@@ -1,0 +1,20 @@
+# api
+fastapi==0.115.2
+uvicorn==0.31.1
+requests==2.32.3
+openai==1.51.0
+python-dotenv==1.0.1
+langchain==0.3.2
+langchain-community==0.3.1
+langchain-openai==0.2.2
+tiktoken==0.8.0
+faiss-cpu==1.8.0.post1
+aiofiles==24.1.0
+
+# webserver
+django==5.1.2
+django-cors-headers==4.5.0
+
+# telegram
+python-telegram-bot==21.6
+python-telegram-bot[job-queue]
