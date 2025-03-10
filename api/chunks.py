@@ -31,7 +31,7 @@ class Chunk():
         # Указываем путь к сохранённой базе данных
         load_path = "api/base/FAISS_ICM"
         embeddings = OpenAIEmbeddings(
-             api_key="sk-or-vv-97eb792c85f0c225413a6e7ff5115b3629e227c0ff69ff32006b17960dc8e530", # ваш ключ в VseGPT после регистрации
+             api_key="", # ваш ключ в VseGPT после регистрации
              openai_api_base="https://api.vsegpt.ru/v1",
              )
 
@@ -42,7 +42,7 @@ class Chunk():
         # Указываем путь к сохранённой базе данных
         load_path = "api/base/FAISS_IAM"
         embeddings = OpenAIEmbeddings(
-             api_key="sk-or-vv-97eb792c85f0c225413a6e7ff5115b3629e227c0ff69ff32006b17960dc8e530", # ваш ключ в VseGPT после регистрации
+             api_key="", # ваш ключ в VseGPT после регистрации
              openai_api_base="https://api.vsegpt.ru/v1",
              )
 
@@ -81,7 +81,7 @@ class Chunk():
         # обращение к OpenAI
        # client = OpenAI()        
         client = OpenAI(
-            api_key="sk-or-vv-97eb792c85f0c225413a6e7ff5115b3629e227c0ff69ff32006b17960dc8e530", # ваш ключ в VseGPT после регистрации
+            api_key="", # ваш ключ в VseGPT после регистрации
             base_url="https://api.vsegpt.ru/v1",
         ) 
 
@@ -103,7 +103,7 @@ class Chunk():
 
         # подготовка параметров запроса
         client = AsyncOpenAI(
-            api_key="sk-or-vv-97eb792c85f0c225413a6e7ff5115b3629e227c0ff69ff32006b17960dc8e530", # ваш ключ в VseGPT после регистрации
+            api_key="", # ваш ключ в VseGPT после регистрации
             base_url="https://api.vsegpt.ru/v1",
         )
 
